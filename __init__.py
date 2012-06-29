@@ -94,7 +94,7 @@ class priv(Plugin):
 		else:
 			level = 1
 		if level != 1:
-			passwordAttempt = self.ask("Die naechste Frage kommt aus dem Bereich "+str(level)+"?")
+			passwordAttempt = self.ask("Du bist "+str(level)+"?")
 			while passwordAttempt.lower() != mps['ps'][level]:
 				self.say("Incorrect.")
 				passwordAttempt = self.ask("Wie lautet das Passwort fuer Level "+str(level)+"?")
