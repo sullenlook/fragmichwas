@@ -15,12 +15,12 @@ import os, random
 mps = {
 	'ps':
 	{	1:"Allgemein",
-		2:"Grammatik",
-		3:"Aussprache",
-		4:"Schaetzen",
-		5:"Matematik",
-		6:"Arsch und Titten",
-		7:"Umgangssprache"
+		2:"Allgemein",
+		3:"Grammatik",
+		4:"Aussprache",
+		5:"Schaetzen",
+		6:"Matematik",
+		7:"Arsch und Titten"
 	},
 	'qs':
 	{ 
