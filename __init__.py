@@ -25,7 +25,7 @@ mps = {
 	'qs':
 	{ 
 	1:"Wie ist die korrekte Schreibweise '':\n1: Misissippi\n2: Mississippi\n3: Missisippi\n4: Mississipi",
-	2:"Wie ist die richtige Aussprache von meme: 1, 2, 3 or 4",
+	2:"Wie ist die richtige Aussprache von 'Meme': 1, 2, 3 or 4",
 	3:"Welches ist das meistgefahrene Auto in Deutschland, \n1: Opel\n2: BMW\n3: Mercedes-Benz\n4: Volkswagen",
 	4:"7 x 25 + 180 - 72 + 25 x 25 :\n1: 908\n2: 890\n3: 980\n4: 809",
 	5:"Wer ist die Geilste Frau der Welt?",
@@ -34,9 +34,9 @@ mps = {
 	},
 	'sqs':
 	{ 
-	1:"Welche ist die korrekte Schreibweise von Mississippi: 1, 2, 3 or 4?",
-	2:"Welche ist die richtige Aussprache des Wortes: 1: may may. 2: me me. 3: meme or 4: my my?",
-	3:"Welches ist das meistgefahrene Auto in Deutschland, 1, Opel. 2, BMW. 3, Mercedes-Benzor 4, Volkswagen?",
+	1:"Welche ist die korrekte Schreibweise von Mississippi: 1, 2, 3 oder 4?",
+	2:"Welche ist die richtige Aussprache des Wortes: 1: may may. 2: me me. 3: meme oder 4: my my?",
+	3:"Welches ist das meistgefahrene Auto in Deutschland, 1, Opel. 2, BMW. 3, Mercedes-Benz oder 4, Volkswagen?",
 	4:"Was ist sieben mal fuenfundzwanzig plus hundertachzig minus zweiundsiebzig plus fuenfundzwanzig plus fuenfundzwanzig: 1, neunhundertacht. 2, achthundertneunzig. 3, neunhundertachzig oder 4, achthundertneun?",
 	5:"Wie heisst die Geilste Frau auf der ganzen Welt?",
 	6:"Was sagt man auch wenn es zwoelf uhr ist?",
@@ -48,8 +48,8 @@ mps = {
 	2:"3",
 	3:"4",
 	4:"1",
-	5:"Paris Hilton","Penelopé Cruz","Denise Grellmann"
-	6:"mitternacht","geisterstunde"
+	5:"hilton",
+	6:"mitternacht",
 	7:"2"
 	}
 }
