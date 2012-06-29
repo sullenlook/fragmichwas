@@ -1,0 +1,19 @@
+FRAG MICH WAS PLUGIN IN DEUTSCH
+
+
+Sag einfach "Frag mich was" oder "Spiel mit mir" und Siri macht ein kleines Quiz mit dir.
+
+
+Clone fragmichwas in Dein plugins Ordner.
+ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ
+
+        https://github.com/sullenlook/fragmichwas.git
+
+
+Füge folgendes in plugins.conf:
+ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ
+
+        fragmichwas
+
+
+FERTIG
