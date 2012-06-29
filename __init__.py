@@ -14,13 +14,13 @@ import os, random
 
 mps = {
 	'ps':
-	{	1:"abc",
-		2:"troll",
-		3:"f7u12",
-		4:"4chan",
-		5:"9gag",
-		6:"narwhal",
-		7:"cats"
+	{	1:"Grammatik",
+		2:"Aussprache",
+		3:"Schaetzen",
+		4:"Matematik",
+		5:"Arsch und Titten",
+		6:"Umgangssprache",
+		7:"Zitate"
 	},
 	'qs':
 	{ 
@@ -28,7 +28,7 @@ mps = {
 	2:"Wie ist die richtige Aussprache von meme: 1, 2, 3 or 4",
 	3:"Welches ist das meistgefahrene Auto in Deutschland, \n1: Opel\n2: BMW\n3: Mercedes-Benz\n4: Volkswagen",
 	4:"7 x 25 + 180 - 72 + 25 x 25 :\n1: 908\n2: 890\n3: 980\n4: 809",
-	5:"Wie ist der Name der besten Internet Seite der Welt?",
+	5:"Wer ist die Geilste Frau der Welt?",
 	6:"Was sagt man auch wenn es 24:00 Uhr ist?",
 	7:"Was hat Roger gesagt:\n1: Rotze-Kuchen-Dumm\n2: Rotze-Kuchen-Hohl\n3: Rotze-Kuchen-Doof\n4: Geiler als Rotze-Kuchen"
 	},
@@ -38,7 +38,7 @@ mps = {
 	2:"Welche ist die richtige Aussprache des Wortes: 1: may may. 2: me me. 3: meme or 4: my my?",
 	3:"Welches ist das meistgefahrene Auto in Deutschland, 1, Opel. 2, BMW. 3, Mercedes-Benzor 4, Volkswagen?",
 	4:"Was ist sieben mal fuenfundzwanzig plus hundertachzig minus zweiundsiebzig plus fuenfundzwanzig plus fuenfundzwanzig: 1, neunhundertacht. 2, achthundertneunzig. 3, neunhundertachzig oder 4, achthundertneun?",
-	5:"Wie heisst die beste Internet Seite der Welt?",
+	5:"Wie heisst die Geilste Frau auf der ganzen Welt?",
 	6:"Was sagt man auch wenn es zwoelf uhr ist?",
 	7:"Was hat Roger gesagt:\n1: Alle Weiber sind Rotze-Kuchen-Dumm\n2: Alle Weiber sind Rotze-Kuchen-Hohl\n3: Alle Weiber sind Rotze-Kuchen-Doof\n4: Jedes Weib ist Geiler als'n Rotze-Kuchen?"
 	},
@@ -48,14 +48,14 @@ mps = {
 	2:"3",
 	3:"4",
 	4:"1",
-	5:"sullenlook.eu",
-	6:"mitternacht",
+	5:"Paris Hilton","Penelopé Cruz","Denise Grellmann"
+	6:"mitternacht","geisterstunde"
 	7:"2"
 	}
 }
 
 class priv(Plugin):
-	@register("de-DE", "testlauf")
+	@register("de-DE", "test frage")
 	def authtest(self, speech, language, regex):
 		if self.assistant_id() == "[6CF4E775-2DB0-4C99-A5D8-DB1B35EEDE00":
 			self.say("Zugelassen!")
@@ -94,7 +94,7 @@ class priv(Plugin):
 		else:
 			level = 1
 		if level != 1:
-			passwordAttempt = self.ask("Wie lautet das Passwort fuer Level "+str(level)+"?")
+			passwordAttempt = self.ask("Die naechste Frage kommt aus dem Bereich "+str(level)+"?")
 			while passwordAttempt.lower() != mps['ps'][level]:
 				self.say("Incorrect.")
 				passwordAttempt = self.ask("Wie lautet das Passwort fuer Level "+str(level)+"?")
