@@ -17,9 +17,9 @@ mps = {
 	{	1:"nich schlecht.",
 		2:"gut.",
 		3:"schlau.",
-		4:"Klueger als Du aussiehst.",
-		5:"der, der schneller Antwortet als sein Schatten.",
-		6:"eine Antwort-Maschine.",
+		4:"nicht Dumm",
+		5:"Klueger als Du aussiehst.",
+		6:"der, der schneller Antwortet als sein Schatten.",
 		7:"Allwissend."
 	},
 	'qs':
@@ -48,7 +48,7 @@ mps = {
 	2:"3",
 	3:"4",
 	4:"1",
-	5:"hilton",
+	5:"paris hilton",
 	6:"mitternacht",
 	7:"2"
 	}
