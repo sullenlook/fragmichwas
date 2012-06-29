@@ -19,7 +19,7 @@ mps = {
 		3:"schlau.",
 		4:"Klueger als Du aussiehst.",
 		5:"der, der schneller Antwortet als sein Schatten.",
-		6:"eine Maschine.",
+		6:"eine Antwort-Maschine.",
 		7:"Allwissend."
 	},
 	'qs':
@@ -39,8 +39,8 @@ mps = {
 	3:"Welches ist das meistgefahrene Auto in Deutschland, 1, Opel. 2, BMW. 3, Mercedes-Benz oder 4, Volkswagen?",
 	4:"Was ist sieben mal fuenfundzwanzig plus hundertachzig minus zweiundsiebzig plus fuenfundzwanzig plus fuenfundzwanzig: 1, neunhundertacht. 2, achthundertneunzig. 3, neunhundertachzig oder 4, achthundertneun?",
 	5:"Wie heisst die Geilste Frau auf der ganzen Welt?",
-	6:"Was sagt man auch wenn es zwoelf uhr ist?",
-	7:"Was hat Roger gesagt:\n1: Alle Weiber sind Rotze-Kuchen-Dumm\n2: Alle Weiber sind Rotze-Kuchen-Hohl\n3: Alle Weiber sind Rotze-Kuchen-Doof\n4: Jedes Weib ist Geiler als'n Rotze-Kuchen?"
+	6:"Was sagt man auch wenn es genau Null Uhr ist?",
+	7:"Was hat Roger gesagt:\n1: Alle Weiber sind Rotze-Kuchen-Dumm,\n2: Alle Weiber sind Rotze-Kuchen-Hohl,\n3: Alle Weiber sind Rotze-Kuchen-Doof oder\n4: Jedes Weib ist Geiler als'n Rotze-Kuchen?"
 	},
 	'ans':
 	{
