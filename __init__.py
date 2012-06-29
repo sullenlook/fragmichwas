@@ -14,13 +14,13 @@ import os, random
 
 mps = {
 	'ps':
-	{	1:"Grammatik",
-		2:"Aussprache",
-		3:"Schaetzen",
-		4:"Matematik",
-		5:"Arsch und Titten",
-		6:"Umgangssprache",
-		7:"Zitate"
+	{	1:"Allgemein",
+		2:"Grammatik",
+		3:"Aussprache",
+		4:"Schaetzen",
+		5:"Matematik",
+		6:"Arsch und Titten",
+		7:"Umgangssprache"
 	},
 	'qs':
 	{ 
@@ -104,7 +104,7 @@ class priv(Plugin):
 			while ans.lower() != mps['ans'][level]:
 				ans = self.ask(mps['qs'][level],mps['sqs'][level])
 			self.say("Korrekt!")
-			if level != 1: self.say("Der Code wird auf dieses level zurueck gesetzt '"+str(mps['ps'][level])+"'")
+			if level != 1: self.say("Die naechste Frage kommt aus dem Bereich '"+str(mps['ps'][level])+"'")
 			ans = "NONE"
 			level = level +1
 			if level >7:
